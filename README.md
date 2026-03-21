@@ -12,7 +12,7 @@ A simple Bash script to compile and optionally run a single C++23 file using Cla
 Clone the repository and make the script executable:
 
 ```bash
-git clone https://github.com/yourusername/cpp-compile-run.git
+git clone https://github.com/nikitu0008-collab/Compile-C-.git
 cd cpp-compile-run
 chmod +x compile.sh
 Optionally, add the script to your PATH.
