@@ -1,10 +1,10 @@
 # C++ Quick Compile & Run
 
-A simple Bash script to compile and optionally run a single C++23 file using Clang++.
+A simple Bash script to compile and optionally run a single C++26 file using Clang++.
 
 ## Requirements
 
-- clang++ (or g++) with C++23 support
+- clang++ (or g++) with C++26 support
 - Bash
 
 ## Installation
