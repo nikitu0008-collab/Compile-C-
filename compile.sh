@@ -58,8 +58,8 @@ if [[ -z "$OUTPUT" ]]; then
 fi
 
 # Компиляция
-echo "Compiling $INPUT with $COMPILER -std=c++23..."
-$COMPILER -std=c++23 "$INPUT" -o "$OUTPUT"
+echo "Compiling $INPUT with $COMPILER -std=c++26..."
+$COMPILER -std=c++2c "$INPUT" -o "$OUTPUT"
 
 if [[ $? -eq 0 ]]; then
     echo "Compilation successful. Output: ./$OUTPUT"
